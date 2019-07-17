@@ -7,5 +7,5 @@ package com.group.demo.enums;
  * @version: 1.1.0
  */
 public enum DBTypeEnum {
-    MASTER, SLAVE;
+    MASTER, SLAVE
 }
