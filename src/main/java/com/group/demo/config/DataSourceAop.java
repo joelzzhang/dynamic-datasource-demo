@@ -15,7 +15,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class DataSourceAop {
 
-    @Pointcut("execution(* com.group.demo.service..*.select*(..)) " +
+    @Pointcut("@annotation(com.group.demo.annotation.Slave) " +
+            "|| execution(* com.group.demo.service..*.select*(..)) " +
             "|| execution(* com.group.demo.service..*.get*(..))")
     public void readPointcut() {
     }
