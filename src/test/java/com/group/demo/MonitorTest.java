@@ -18,8 +18,8 @@ import java.util.List;
  * @date ：Created in 2019/6/25 15:47
  * @version: 1.1.0
  */
-@RunWith(SpringRunner.class)
 @SpringBootTest
+@RunWith(SpringRunner.class)
 @MapperScan({"com.group.demo.dal.mapper"})
 public class MonitorTest {
     @Autowired
