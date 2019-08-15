@@ -8,7 +8,7 @@ package com.group.demo.duotai;
  */
 public class ShapesTest {
     public static void main(String[] args) {
-        Shapes shape = new Cricle();
+        Shapes shape = new Circle();
         shape.draw();
         shape.download();
     }
